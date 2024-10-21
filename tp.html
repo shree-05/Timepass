@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Login - Organ Donation Project</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background-color: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .logo {
+      max-width: 150px;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #e74c3c;
+      margin-bottom: 30px;
+    }
+
+    input[type="email"], input[type="password"] {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #e74c3c;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #c0392b;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .image-container img {
+      max-width: 150px;
+      margin: 0 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="organ-donation-logo.png" alt="Organ Donation Logo" class="logo">
+    <h2>Admin Login</h2>
+    <form>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <div class="image-container">
+      <img src="organ-donation-image1.jpg" alt="Organ Donation Image 1">
+      <img src="organ-donation-image2.jpg" alt="Organ Donation Image 2">
+    </div>
+  </div>
+</body>
+</html>
